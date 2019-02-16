@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Haley's Web Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Miss+Fajardose" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">Slider</a></li>
+                    <li><a href="index3.html">All Visualizations</a></li>
+                    <li><a href="index4.html">Data</a></li>
+                  </ul>
+            </div>
+              
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="Fig1.png" style="width:100%">
+                <div class="text">City Latitude vs Max Temp</div>
+            </div>
+      
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="Fig2.png" style="width:100%">
+                <div class="text">City Lat vs Humidity</div>
+            </div>
+      
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="Fig3.png" style="width:100%">
+                <div class="text">City Lat vs Cloudiness</div>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="Fig4.png" style="width:100%">
+                <div class="text">Cit Lat vs Windspeed</div>
+            </div>
+      
+      
+        <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      <script src="app.js"></script>    
+</body>
+</html>
